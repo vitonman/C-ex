@@ -11,55 +11,83 @@ namespace ConsoleApp5
         static void Main(string[] args)
         {
 
+            /*
+                        // Enter numbers
+                        int[] nums = new int[7];
+                        Console.WriteLine("Write seven numbers");
 
-            // Enter numbers
-            int[] nums = new int[7];
-            Console.WriteLine("Write seven numbers");
+                        for(int i = 0; i<nums.Length; i++)
+                        {
 
-            for(int i = 0; i<nums.Length; i++)
-            {
+                            Console.Write("{0} number: ", i + 1);
+                            nums[i] = Int32.Parse(Console.ReadLine());
 
-                Console.Write("{0} number: ", i + 1);
-                nums[i] = Int32.Parse(Console.ReadLine());
+                        }
 
-            }
+                        // Sorting numbers 
 
-            // Sorting numbers 
+                        int temp;
+                        for (int i = 0; i < nums.Length-1; i++)
+                        {
 
-            int temp;
-            for (int i = 0; i < nums.Length-1; i++)
-            {
+                            for (int j = i + 1; j < nums.Length; j++)
+                            {
 
-                for (int j = i + 1; j < nums.Length; j++)
-                {
+                                if (nums[i] > nums[j])
+                                {
 
-                    if (nums[i] > nums[j])
-                    {
+                                    temp = nums[i];
+                                    nums[i] = nums[j];
+                                    nums[j] = temp;
 
-                        temp = nums[i];
-                        nums[i] = nums[j];
-                        nums[j] = temp;
+                                }
 
-                    }
+                            }
 
-                }
+                        }
 
-            }
+                        //output
 
-            //output
+                        Console.WriteLine("Output sorted massive");
 
-            Console.WriteLine("Output sorted massive");
+                        for (int i = 0; i < nums.Length; i++)
+                        {
 
-            for (int i = 0; i < nums.Length; i++)
-            {
+                            Console.WriteLine(nums[i]);
 
-                Console.WriteLine(nums[i]);
+                        }
 
-            }
+                        Console.ReadLine();
 
-            Console.ReadLine();
+            */
 
+            Person person = new Person();
+            person.GetInfo();
+
+            person.name = "Vitali";
+            person.age = 25;
+            person.GetInfo();
+
+            Console.ReadKey();
 
         }
     }
+
+    class Person
+    {
+
+        public string name;
+        public int age;
+
+        public void GetInfo()
+        {
+
+            Console.WriteLine($"Name: {name} Age: {age}");
+
+        }
+    }
+
+
+
+
 }
