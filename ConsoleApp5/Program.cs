@@ -11,13 +11,53 @@ namespace ConsoleApp5
         static void Main(string[] args)
         {
 
-            Console.Write("Enter you'r name: ");
-            string name = Console.ReadLine();
 
-            Console.WriteLine($"Hello {name}");
+            // Enter numbers
+            int[] nums = new int[7];
+            Console.WriteLine("Write seven numbers");
 
-            Console.ReadKey();
+            for(int i = 0; i<nums.Length; i++)
+            {
 
+                Console.Write("{0} number: ", i + 1);
+                nums[i] = Int32.Parse(Console.ReadLine());
+
+            }
+
+            // Sorting numbers 
+
+            int temp;
+            for (int i = 0; i < nums.Length-1; i++)
+            {
+
+                for (int j = i + 1; j < nums.Length; j++)
+                {
+
+                    if (nums[i] > nums[j])
+                    {
+
+                        temp = nums[i];
+                        nums[i] = nums[j];
+                        nums[j] = temp;
+
+                    }
+
+                }
+
+            }
+
+            //output
+
+            Console.WriteLine("Output sorted massive");
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+
+                Console.WriteLine(nums[i]);
+
+            }
+
+            Console.ReadLine();
 
 
         }
