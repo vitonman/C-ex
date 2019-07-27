@@ -11,7 +11,13 @@ namespace ConsoleApp5
         static void Main(string[] args)
         {
 
-            Console.Write("Enter you")
+            Console.Write("Enter you'r name: ");
+            string name = Console.ReadLine();
+
+            Console.WriteLine($"Hello {name}");
+
+            Console.ReadKey();
+
 
 
         }
