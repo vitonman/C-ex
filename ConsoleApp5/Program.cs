@@ -33,37 +33,6 @@ namespace ConsoleApp5
 
     }
 
-    class Person
-    {
-
-        public string name;
-        public int age;
-
-        public Person()
-        {
-            name = "none";
-            age = 18;
-
-        }
-
-       
-        public Person(string name, int age)
-        {
-
-            this.name = name;
-            this.age = age;
-
-        }
-
-        public void GetInfo()
-        {
-
-            Console.WriteLine($"Name: {name} Age: {age}");
-
-        }
-    }
-
-
 
 
 }
