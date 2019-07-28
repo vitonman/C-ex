@@ -15,19 +15,18 @@ namespace ConsoleApp5
             //cycleclass.GetForCycle();
 
 
-           /* Person person = new Person();
-            person.GetInfo();
+            /* Person person = new Person();
+             person.GetInfo();
 
-            person.name = "Vitali";
-            person.age = 25;
-            person.GetInfo();
+             person.name = "Vitali";
+             person.age = 25;
+             person.GetInfo();
 
-            Person second_person = new Person("Vitali2", 25);
-            second_person.GetInfo();
+             Person second_person = new Person("Vitali2", 25);
+             second_person.GetInfo();
 
-            Console.ReadKey();*/
+             Console.ReadKey();*/
 
-            
         }
 
 
