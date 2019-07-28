@@ -11,8 +11,8 @@ namespace ConsoleApp5
         static void Main(string[] args)
         {
 
-            CycleClass cycleclass = new CycleClass();
-            cycleclass.GetForCycle();
+            //CycleClass cycleclass = new CycleClass();
+            //cycleclass.GetForCycle();
 
 
             Person person = new Person();
