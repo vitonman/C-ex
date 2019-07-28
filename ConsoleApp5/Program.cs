@@ -15,7 +15,7 @@ namespace ConsoleApp5
             //cycleclass.GetForCycle();
 
 
-            Person person = new Person();
+           /* Person person = new Person();
             person.GetInfo();
 
             person.name = "Vitali";
@@ -25,7 +25,7 @@ namespace ConsoleApp5
             Person second_person = new Person("Vitali2", 25);
             second_person.GetInfo();
 
-            Console.ReadKey();
+            Console.ReadKey();*/
 
             
         }
