@@ -68,6 +68,9 @@ namespace ConsoleApp5
             person.age = 25;
             person.GetInfo();
 
+            Person second_person = new Person("Vitali2", 25);
+            second_person.GetInfo();
+
             Console.ReadKey();
 
         }
@@ -78,6 +81,22 @@ namespace ConsoleApp5
 
         public string name;
         public int age;
+
+        public Person()
+        {
+            name = "none";
+            age = 18;
+
+        }
+
+       
+        public Person(string name, int age)
+        {
+
+            this.name = name;
+            this.age = age;
+
+        }
 
         public void GetInfo()
         {
