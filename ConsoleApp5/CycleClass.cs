@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp5
 {
-    internal class CycleClass
+    class CycleClass
     {
 
         public void GetForCycle()
